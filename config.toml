@@ -55,40 +55,28 @@ paginate = 10
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "portfolio/foa.png"
+			thumb = "portfolio/foa.png"
+			title = "[Footsteps of Ancestors](http://footstepsofancestors.com)"
+			description = "Built using WordPress, Javascript, CSS and a basic grid."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "portfolio/serda.png"
+			thumb = "portfolio/serda.png"
+			title = "[Serda Financial](http://serdafinancial.com)"
+			description = "Built using WordPress, Bootstrap and CSS."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "portfolio/exponent.png"
+			thumb = "portfolio/exponent.png"
+			title = "[The MSU Exponent](http://msuexponent.com)"
+			description = "Built using WordPress, Foundation and CSS."
 
 		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "portfolio/isa.png"
+			thumb = "portfolio/isa.png"
+			title = "[Indian Student Association](http://www.montana.edu/isa/index.html)"
+			description = "Built using HTML, Skel and CSS."
 
 	[params.recentposts]
 		hide  = true
