@@ -1,3 +1,128 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
-baseurl = "http://example.org/"
+title = "Rishad Bharucha"
+baseurl = "http://rishadbharucha.com/"
+theme = "hugo-strata-theme"
+# disqusShortname = "spf13"
+# Enable Google Analytics by inserting your tracking code
+googleAnalytics = ""
+# Define how many posts should appear on a site
+paginate = 10
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Rishad Bharucha"
+	description = "Personal website and portfolio of a crazy soccer-obssessed web developer."
+
+	# Format dates with Go's time formatting
+	date_format = "2006-01-02"
+
+	# Add custom assets with their paths relative to the static folder
+	custom_js   = []
+	custom_css  = []
+
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "avatar.jpg"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "**Hello!** I'm Rishad &mdash; a crazy soccer-obssessed web developer."
+		# The icons will be shown if you enter your username
+		twitter = ""
+		github = "rishadbharucha"
+		gitlab = ""
+		dribbble = ""
+		facebook = ""
+		googleplus = ""
+		flickr = ""
+		linkedin = "http://linkedin.com/in/rishadbharucha"
+
+		copyright = [
+			"&copy; Rishad Bharucha."
+		]
+
+
+	[params.about]
+		hide  = false
+		title = "Pretentious crap about me"
+		content = "I'm a passionate web developer during the week and a die-hard soccer fan on the weekend. I prefer frontend over backend development, but I'm pretty flexible and always willing to learn. As you can tell, this bio is pretentious. So you can never be certain until you hire me."
+
+
+	[params.portfolio]
+		hide  = false
+		title = "Recent Work"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			image = "portfolio/foa.png"
+			thumb = "portfolio/foa.png"
+			title = "[Footsteps of Ancestors](http://footstepsofancestors.com)"
+			description = "Built using WordPress, Javascript, CSS and a basic grid."
+
+		[[params.portfolio.gallery]]
+			image = "portfolio/serda.png"
+			thumb = "portfolio/serda.png"
+			title = "[Serda Financial](http://serdafinancial.com)"
+			description = "Built using WordPress, Bootstrap and CSS."
+
+		[[params.portfolio.gallery]]
+			image = "portfolio/exponent.png"
+			thumb = "portfolio/exponent.png"
+			title = "[The MSU Exponent](http://msuexponent.com)"
+			description = "Built using WordPress, Foundation and CSS."
+
+		[[params.portfolio.gallery]]
+			image = "portfolio/isa.png"
+			thumb = "portfolio/isa.png"
+			title = "[Indian Student Association](http://www.montana.edu/isa/index.html)"
+			description = "Built using HTML, Skel and CSS."
+
+	[params.recentposts]
+		hide  = true
+		title = "Recent blog posts"
+
+	[params.contact]
+		hide  = false
+		title = "Get In Touch"
+		content = "You should contact me if you fancy a cuppa tea. Or getting some work done."
+
+		# address = [
+		# 	"1234 Somewhere Rd.",
+		# 	"Nashville, TN 00000",
+		# 	"United States"
+		# ]
+		# phone = "000-000-0000"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "rb2102@gmail.com"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Message"
+			submit = "Send message"
+
+
+# Menu links that appear on the left sidebar
+[[menu.main]]
+	name = "Home"
+	url  = "/"
+	weight = 0
+
+[[menu.main]]
+	name = "Blog"
+	url  = "post/"
+	weight = 10
