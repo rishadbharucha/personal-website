@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "Rishad Bharucha"
 baseurl = "http://rishadbharucha.com/"
 theme = "hugo-strata-theme"
-publishDir: "docs"
+publishDir = "docs"
 # disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
