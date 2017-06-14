@@ -45,7 +45,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Pretentious crap about me"
-		content = "I'm a passionate web developer during the week and a die-hard soccer fan on the weekend. I prefer frontend over backend development, but I'm pretty flexible and always willing to learn. As you can tell, this bio is pretentious. So you can never be certain until you hire me."
+		content = "I'm a passionate web developer during the week and a die-hard soccer fan on the weekend. My primary experience is in frontend development, but I'm working on developing my skills on the backend as well. As you can tell, this bio is pretentious. So you can't be certain until you hire me."
 
 
 	[params.portfolio]
