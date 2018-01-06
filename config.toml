@@ -28,8 +28,8 @@ paginate = 10
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "**Hello!** I'm Rishad &mdash; a crazy soccer-obssessed web developer."
 		# The icons will be shown if you enter your username
-		twitter = ""
-		github = "rishadbharucha"
+		twitter = "rishadfb"
+		github = "rishadfb"
 		gitlab = ""
 		dribbble = ""
 		facebook = ""
